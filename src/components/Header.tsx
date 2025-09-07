@@ -28,13 +28,17 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-          <a href="#home" className="flex items-center">
-  <img 
-    src="public/logo.jpg"   // make sure your logo is inside public/ folder
-    alt="SB Services Logo"
-    className="h-18 w-auto md:h-14"
-  />
-</a>
+          <a href="#home" className="flex items-center"></a>
+  {/* Logo */}
+        <div className="flex-shrink-0">
+          <a href="/">
+            <img 
+              src="/logo.jpg"        // ✅ Public folder path
+              alt="Logo" 
+              className="h-12 w-auto sm:h-14" 
+            />
+          </a>
+        </div>
 
           </div>
 
