@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -51,7 +52,12 @@ const Header = () => {
             <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
             <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
             <a href="#contact" className="text-primary-foreground hover:text-accent transition-luxury">Contact</a>
-            <a href="lifestyle.tsx" className="text-primary-foreground hover:text-accent transition-luxury">Lifestyle</a>
+            <Link 
+    to="/lifestyle" 
+    className="text-primary-foreground hover:text-accent transition-luxury"
+  >
+    Lifestyle
+  </Link>
 </nav>
 
           <div className="flex items-center gap-4">
