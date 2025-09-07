@@ -32,18 +32,14 @@ const About = () => {
             <div>
               <span className="text-accent font-semibold text-lg mb-2 block">About SB Services</span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Your Trusted Partner in 
-                <span className="hero-text block mt-2"> Automotive Excellence</span>
+                About Saudi British Center
               </h2>
             </div>
             
             <div className="space-y-6">
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-                For over two decades, SB Services has been the premier destination for luxury automotive care in Saudi Arabia. We specialize in providing exceptional service for the world's most prestigious automotive brands.
-              </p>
-              
-              <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-                Our state-of-the-art facility combines traditional craftsmanship with cutting-edge technology to deliver unparalleled service quality. From routine maintenance to complex repairs, we treat every vehicle with the respect and care it deserves.
+              Saudi British Centre is a leading institution dedicated to promoting health, wellness, and personal development through world-class services and expert guidance Blending Saudi values with British excellence, the centre offers a wide range of programs including lifestyle management, health consultations, language training, and personal development workshops. With a team of experienced professionals and a client-focused approach, we provide personalized support tailored to individual goals. Our mission is to empower individuals to live healthier, more fulfilling lives through education, innovation, and care. At Saudi British Centre, quality, integrity, and lasting impact define everything we do.
+
               </p>
             </div>
             
@@ -84,12 +80,7 @@ const About = () => {
               
               {/* Overlay Content */}
               <div className="absolute bottom-8 left-8 right-8">
-                <h3 className="text-2xl font-bold text-primary-foreground mb-2">
-                  State-of-the-Art Facility
-                </h3>
-                <p className="text-muted-foreground">
-                  Advanced equipment and expert technicians ensuring the highest service standards
-                </p>
+            
               </div>
             </div>
             

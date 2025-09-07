@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,11 +14,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-accent" />
-              <span>+966 12 345 6789</span>
+              <span>+966500909822</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-accent" />
-              <span>info@luxuryautomotive.sa</span>
+              <span>info@sbservices.sa</span>
             </div>
           </div>
           <div className="hidden md:block">
@@ -50,7 +51,7 @@ const Header = () => {
             <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
             <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
             <a href="#contact" className="text-primary-foreground hover:text-accent transition-luxury">Contact</a>
-            <a href="#lifestyle" className="text-primary-foreground hover:text-accent transition-luxury">Lifestyle</a>
+            <a href="lifestyle.tsx" className="text-primary-foreground hover:text-accent transition-luxury">Lifestyle</a>
 </nav>
 
           <div className="flex items-center gap-4">
