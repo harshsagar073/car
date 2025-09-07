@@ -28,7 +28,14 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold hero-text">SB SERVICES</h1>
+          <a href="#home" className="flex items-center">
+  <img 
+    src="public/IMG-20250829-WA0065.jpg"   // make sure your logo is inside public/ folder
+    alt="SB Services Logo"
+    className="h-18 w-auto md:h-14"
+  />
+</a>
+
           </div>
 
           {/* Desktop Navigation */}
@@ -39,7 +46,8 @@ const Header = () => {
             <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
             <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
             <a href="#contact" className="text-primary-foreground hover:text-accent transition-luxury">Contact</a>
-          </nav>
+            <a href="#lifestyle" className="text-primary-foreground hover:text-accent transition-luxury">Lifestyle</a>
+</nav>
 
           <div className="flex items-center gap-4">
             <Button variant="luxury" size="sm" className="hidden md:inline-flex">
@@ -66,6 +74,7 @@ const Header = () => {
               <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
               <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
               <a href="#contact" className="text-primary-foreground hover:text-accent transition-luxury">Contact</a>
+              <a href="#lifestyle" className="hover:text-pink-600">Lifestyle</a> {/* ✅ New link */}
               <Button variant="luxury" size="sm" className="self-start mt-4">
                 Get Quote
               </Button>

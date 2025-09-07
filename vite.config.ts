@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  Base:process.env.VITE_BASE_PATH || "/car",
 }));
