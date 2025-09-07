@@ -30,7 +30,7 @@ const Header = () => {
           <div className="flex items-center">
           <a href="#home" className="flex items-center">
   <img 
-    src="public/IMG-20250829-WA0065.jpg"   // make sure your logo is inside public/ folder
+    src="public/logo.jpg"   // make sure your logo is inside public/ folder
     alt="SB Services Logo"
     className="h-18 w-auto md:h-14"
   />
