@@ -55,10 +55,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-5xl mx-auto animate-fade-in">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight tracking-tight">
-            <span className="hero-text block animate-scale-in">Premium</span>
-            <span className="text-primary-foreground block animate-scale-in animation-delay-200">Automotive</span>
-            <span className="hero-text block animate-scale-in animation-delay-400">Excellence</span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight tracking-tight">
+            <span className="hero-text block animate-scale-in">Bently@Rolls Royce</span>
+            <span className="text-primary-foreground block animate-scale-in animation-delay-200">Maintain specialist</span>
+            <span className="hero-text block animate-scale-in animation-delay-400">@SBC</span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-6 sm:mb-8 lg:mb-12 max-w-4xl mx-auto leading-relaxed px-4 animate-fade-in animation-delay-600">
@@ -66,16 +66,41 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-8 animate-fade-in animation-delay-800">
-            <Button variant="luxury" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto hover-scale">
-              Explore Collection
-              <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
-            </Button>
 
-            <Button variant="luxuryOutline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto hover-scale">
-              <Play className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
-              Watch Video
-            </Button>
-          </div>
+{/* Explore Collection → Instagram link */}
+<a
+  href="https://www.instagram.com/bentley_rollsroyce_center?igsh=cnE2bWJxbm12NGVi&utm_source=qr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full sm:w-auto"
+>
+  <Button
+    variant="luxury"
+    size="lg"
+    className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto hover-scale"
+  >
+    Explore Collection
+    <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+  </Button>
+</a>
+
+           {/* Watch Video → Instagram link */}
+  <a
+    href="https://www.instagram.com/bentley_rollsroyce_center?igsh=cnE2bWJxbm12NGVi&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto"
+  >
+    <Button
+      variant="luxuryOutline"
+      size="lg"
+      className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full sm:w-auto hover-scale"
+    >
+      <Play className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
+      Watch Video
+    </Button>
+  </a>
+</div>
 
           <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-sm sm:text-base text-muted-foreground animate-fade-in animation-delay-1000">
             <div className="flex items-center gap-2">

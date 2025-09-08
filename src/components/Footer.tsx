@@ -61,7 +61,7 @@ const Footer = () => {
               </h3>
               <ul className="space-y-3">
                 <li><a href="#home" className="text-luxury-gray hover:text-secondary transition-colors">Home</a></li>
-                <li><a href="#lifestyle.html" className="text-luxury-gray hover:text-secondary transition-colors">Lifestyle</a></li>
+                <li><a href="#lifestyle" className="text-luxury-gray hover:text-secondary transition-colors">Lifestyle</a></li>
                 <li><a href="#models" className="text-luxury-gray hover:text-secondary transition-colors">Models</a></li>
                 <li><a href="#service" className="text-luxury-gray hover:text-secondary transition-colors">Your Saudi British Centre Service</a></li>
                 <li><a href="#about" className="text-luxury-gray hover:text-secondary transition-colors">About Saudi British Centre</a></li>

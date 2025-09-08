@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 
 const Header = () => {
@@ -35,9 +37,9 @@ const Header = () => {
         <div className="flex-shrink-0">
           <a href="/">
             <img 
-              src="/logo.jpg"        // ✅ Public folder path
+              src="public/logo.png"        // ✅ Public folder path
               alt="Logo" 
-              className="h-12 w-auto sm:h-14" 
+              className="h-16 w-auto sm:h-20" 
             />
           </a>
         </div>
@@ -48,15 +50,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-primary-foreground hover:text-accent transition-luxury">Home</a>
             <a href="#about" className="text-primary-foreground hover:text-accent transition-luxury">About Us</a>
-            <a href="#services" className="text-primary-foreground hover:text-accent transition-luxury">Services</a>
+
             <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
             <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
-            <a href="#contact" className="text-primary-foreground hover:text-accent transition-luxury">Contact</a>
+            <a
+  href="https://wa.me/966500909822" // replace with your WhatsApp number
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 rounded-full bg-green-500 text-white hover:bg-green-600 transition"
+>
+
+  <FaWhatsapp className="w-5 h-5" />
+  <span className="hidden sm:inline">WhatsApp</span>
+</a>
+
             <Link 
     to="/lifestyle" 
     className="text-primary-foreground hover:text-accent transition-luxury"
   >
     Lifestyle
+  </Link>
+  <Link
+    to="/services"
+    className="text-primary-foreground hover:text-accent transition-luxury"
+  >
+    Services
   </Link>
 </nav>
 

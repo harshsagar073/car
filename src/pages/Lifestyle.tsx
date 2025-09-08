@@ -20,6 +20,11 @@ const products = [
   { name: "Bentley Keyrings", image: "/keyring.jpg", link: "/keyring.jpg" },
   { name: "Bentley Umbrella", image: "/umbrella.jpg", link: "/umbrella.jpg" },
   { name: "Bentley Polo Shirt", image: "/polo.jpg", link: "/polo.jpg" },
+  { name: "Team Performance Jacket", image: "public/team.jpg", link: "public/team.jpg" },
+  { name: "Bently P Bag", image: "public/Bently bag.jpg", link: "public/Bently bag.jpg" },
+  { name: "Bently Lanyard", image: "public/Bently lanyard.jpg", link: "public/Bently lanyard.jpg" },
+  { name: "GT3 Mug", image: "public/GT3 Mug.jpg", link: "public/GT3 Mug.jpg" },
+  { name: "Bentley Water Bottle", image: "public/Bootle Water.jpg", link: "public/Bootle Water.jpg" },
 ];
 
 const Lifestyle = () => {
