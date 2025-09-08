@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Award, Users, Wrench, Star, Shield, Trophy, CheckCircle } from "lucide-react";
-import serviceImage from "@/assets/service-bg.jpg";
 
 const About = () => {
   const stats = [
@@ -38,15 +37,17 @@ const About = () => {
             
             <div className="space-y-6">
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Saudi British Centre is a leading institution dedicated to promoting health, wellness, and personal development through world-class services and expert guidance Blending Saudi values with British excellence, the centre offers a wide range of programs including lifestyle management, health consultations, language training, and personal development workshops. With a team of experienced professionals and a client-focused approach, we provide personalized support tailored to individual goals. Our mission is to empower individuals to live healthier, more fulfilling lives through education, innovation, and care. At Saudi British Centre, quality, integrity, and lasting impact define everything we do.
-
+                Saudi British Centre is a leading institution dedicated to promoting health, wellness, and personal development through world-class services and expert guidance. Blending Saudi values with British excellence, the centre offers a wide range of programs including lifestyle management, health consultations, language training, and personal development workshops. With a team of experienced professionals and a client-focused approach, we provide personalized support tailored to individual goals. Our mission is to empower individuals to live healthier, more fulfilling lives through education, innovation, and care. At Saudi British Centre, quality, integrity, and lasting impact define everything we do.
               </p>
             </div>
             
             {/* Features Grid */}
             <div className="grid sm:grid-cols-3 gap-6">
               {features.map((feature, index) => (
-                <Card key={index} className="p-6 bg-gradient-to-br from-card to-card/50 border-accent/20 hover:shadow-luxury transition-luxury hover:scale-105">
+                <Card 
+                  key={index} 
+                  className="p-6 bg-gradient-to-br from-card to-card/50 border-accent/20 hover:shadow-luxury transition-luxury hover:scale-105"
+                >
                   <div className="flex flex-col items-center text-center space-y-3">
                     <div className="w-12 h-12 bg-gradient-gold rounded-full flex items-center justify-center">
                       <feature.icon className="w-6 h-6 text-luxury-dark" />
@@ -69,34 +70,32 @@ const About = () => {
           </div>
           
           {/* Enhanced Image Section */}
-          <div className="relative animate-fade-in animation-delay-300">
-            <div className="relative overflow-hidden rounded-3xl shadow-luxury">
+          <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center">
               <img 
-                src={serviceImage} 
-                alt="Professional automotive service center" 
-                className="w-full h-full object-cover hover:scale-105 transition-luxury duration-700"
+                src="/us.png"   // ✅ image from public/us.png
+                alt="About Us - Professional automotive service center" 
+                className="w-3/4 h-auto object-cover mx-auto rounded-2xl hover:scale-105 transition-luxury duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-luxury-dark/80 via-transparent to-transparent" />
-              
-              {/* Overlay Content */}
-              <div className="absolute bottom-8 left-8 right-8">
-            
-              </div>
-            </div>
-            
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-4 mt-8">
-              {stats.map((stat, index) => (
-                <Card key={index} className="p-6 text-center bg-gradient-to-br from-card to-card/50 border-accent/20 hover:shadow-luxury transition-luxury hover:scale-105 group">
-                  <div className={`inline-flex items-center justify-center w-12 h-12 bg-gradient-gold rounded-full mb-3 group-hover:scale-110 transition-luxury`}>
-                    <stat.icon className="w-6 h-6 text-luxury-dark" />
-                  </div>
-                  <div className="text-3xl font-bold text-foreground mb-1">{stat.number}</div>
-                  <div className="text-sm text-muted-foreground">{stat.label}</div>
-                </Card>
-              ))}
             </div>
           </div>
+        </div>
+
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
+          {stats.map((stat, index) => (
+            <Card 
+              key={index} 
+              className="p-6 text-center bg-gradient-to-br from-card to-card/50 border-accent/20 hover:shadow-luxury transition-luxury hover:scale-105 group"
+            >
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-gold rounded-full mb-3 group-hover:scale-110 transition-luxury">
+                <stat.icon className="w-6 h-6 text-luxury-dark" />
+              </div>
+              <div className="text-3xl font-bold text-foreground mb-1">{stat.number}</div>
+              <div className="text-sm text-muted-foreground">{stat.label}</div>
+            </Card>
+          ))}
         </div>
       </div>
     </section>

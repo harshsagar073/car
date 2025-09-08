@@ -37,7 +37,7 @@ const Header = () => {
         <div className="flex-shrink-0">
           <a href="/">
             <img 
-              src="/logo.png"        // ✅ Public folder path
+              src="/new.png"        // ✅ Public folder path
               alt="Logo" 
               className="h-16 w-auto sm:h-20" 
             />
@@ -54,7 +54,7 @@ const Header = () => {
             <a href="#products" className="text-primary-foreground hover:text-accent transition-luxury">Products</a>
             <a href="#explore" className="text-primary-foreground hover:text-accent transition-luxury">Explore Cars</a>
             <a
-  href="https://wa.me/966500909822" // replace with your WhatsApp number
+  href="https://wa.me/+966500909822" // replace with your WhatsApp number
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2 px-4 py-2 rounded-full bg-green-500 text-white hover:bg-green-600 transition"
