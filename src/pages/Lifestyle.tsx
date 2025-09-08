@@ -45,9 +45,7 @@ const Lifestyle = () => {
                   asChild
                   className="bg-primary text-white hover:bg-primary/80 rounded-xl"
                 >
-                  <a href={product.link} target="_blank" rel="noopener noreferrer">
-                    Buy Now
-                  </a>
+                  
                 </Button>
               </div>
             </div>

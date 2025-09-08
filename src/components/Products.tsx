@@ -10,7 +10,7 @@ const Products = () => {
       title: "Premium Maintenance",
       description: "Comprehensive maintenance services for luxury vehicles with genuine parts and expert technicians.",
       features: ["Oil Change & Filter", "Brake Service", "Engine Diagnostics", "Transmission Service"],
-      price: "Starting from SAR 500",
+      
       badge: "Most Popular",
       gradient: "from-blue-500/20 to-blue-600/20"
     },
@@ -19,7 +19,7 @@ const Products = () => {
       title: "Extended Warranty",
       description: "Protect your investment with our comprehensive extended warranty coverage for all luxury brands.",
       features: ["Engine Protection", "Electrical Coverage", "24/7 Roadside Assistance", "Loaner Vehicle"],
-      price: "Starting from SAR 2,500",
+     
       badge: "Premium",
       gradient: "from-purple-500/20 to-purple-600/20"
     },
@@ -28,7 +28,7 @@ const Products = () => {
       title: "Express Service",
       description: "Quick turnaround services for busy professionals who value their time without compromising quality.",
       features: ["Same Day Service", "Priority Booking", "Mobile Service", "Pick & Drop"],
-      price: "Starting from SAR 300",
+      
       badge: "Fast",
       gradient: "from-green-500/20 to-green-600/20"
     },
@@ -37,7 +37,7 @@ const Products = () => {
       title: "Concierge Service",
       description: "White-glove service experience with dedicated service advisors and luxury amenities.",
       features: ["Personal Service Advisor", "Luxury Lounge", "Valet Service", "Detail Package"],
-      price: "Starting from SAR 1,000",
+      
       badge: "Exclusive",
       gradient: "from-amber-500/20 to-amber-600/20"
     }
@@ -92,7 +92,7 @@ const Products = () => {
                 </ul>
                 
                 <div className="pt-4 border-t border-accent/30">
-                  <div className="text-2xl font-bold text-accent mb-4 group-hover:text-primary-foreground transition-luxury">{service.price}</div>
+                
                   <Button variant="luxuryOutline" size="sm" className="w-full hover-scale group-hover:bg-accent group-hover:text-luxury-dark">
                     Learn More
                   </Button>
