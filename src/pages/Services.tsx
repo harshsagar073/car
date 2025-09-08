@@ -1,25 +1,25 @@
 import React from "react";
 
 const services = [
-  { title: "Check coolant", image: "public/coolant.jpg" },
-  { title: "Change Gear fluid oil", image: "public/gear.jpg" },
-  { title: "Change brake fluid", image: "public/break.jpg" },
-  { title: "Change engine oil", image: "public/oil.jpg" },
-  { title: "Change spaces", image: "public/spaces.jpg" },
-  { title: "Battery service", image: "public/Battery.jpg" },
-  { title: "Change oil filter", image: "public/filter.jpg" },
-  { title: "Change air filter", image: "public/air filter.jpg" },
-  { title: "A/C filter cleaning", image: "public/ac clean.jpg" },
-  { title: "Check and fill tire air", image: "public/filter air.jpg" },
-  { title: "Hydraulic power steering system", image: "public/Power1.jpg" },
-  { title: "MBS Engine flush", image: "public/MBs.jpg" },
+  { title: "Check coolant", image: "/coolant.jpg" },
+  { title: "Change Gear fluid oil", image: "/gear.jpg" },
+  { title: "Change brake fluid", image: "/break.jpg" },
+  { title: "Change engine oil", image: "/oil.jpg" },
+  { title: "Change spaces", image: "/spaces.jpg" },
+  { title: "Battery service", image: "/Battery.jpg" },
+  { title: "Change oil filter", image: "/filter.jpg" },
+  { title: "Change air filter", image: "/air filter.jpg" },
+  { title: "A/C filter cleaning", image: "/ac clean.jpg" },
+  { title: "Check and fill tire air", image: "/filter air.jpg" },
+  { title: "Hydraulic power steering system", image: "/Power1.jpg" },
+  { title: "MBS Engine flush", image: "/MBs.jpg" },
 ];
 
 const videos = [
-    { title: "Luxury Car Engine Service", src: "public/video1.mp4" },
-    { title: "Brake & Gear Maintenance", src: "public/video2.mp4" },
-    { title: "Battery & Oil Change", src: "public/video3.mp4" },
-    { title: "Complete Vehicle Checkup", src: "public/video4.mp4" },
+    { title: "Luxury Car Engine Service", src: "/video1.mp4" },
+    { title: "Brake & Gear Maintenance", src: "/video2.mp4" },
+    { title: "Battery & Oil Change", src: "/video3.mp4" },
+    { title: "Complete Vehicle Checkup", src: "/video4.mp4" },
   ];
   
   const Services: React.FC = () => {
