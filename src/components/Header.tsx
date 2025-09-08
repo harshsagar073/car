@@ -37,7 +37,7 @@ const Header = () => {
         <div className="flex-shrink-0">
           <a href="/">
             <img 
-              src="public/logo.png"        // ✅ Public folder path
+              src="/logo.png"        // ✅ Public folder path
               alt="Logo" 
               className="h-16 w-auto sm:h-20" 
             />
